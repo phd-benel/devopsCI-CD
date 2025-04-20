@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - develop  # Le workflow sera exécuté lorsqu'un push est effectué sur 'develop'
+      - master  
+
   pull_request:
     branches:
       - master  # Le workflow sera aussi exécuté lors des pull requests vers 'main'
